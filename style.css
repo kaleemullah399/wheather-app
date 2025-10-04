@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: rgb(0, 70, 255);
+     font-family: 'Poppins', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(57, 84, 110);
+    text-shadow: 2px 2px 3px white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+.userinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#user{
+    width: 230px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}#search{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#user:focus{
+    border: 3px solid green;
+    outline: none;
+}#search:hover{
+    background-color: red;
+}#search:active{
+    background-color: green;
+}#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 39, 178);
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 2px 2px 3px 3px white;
+    border: none;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 20px;
+}#cityname{
+    color:white;
+    text-align: center;
+}#temp{
+    color: lightblue;
+    text-align: center;
+}#humadity{
+    color: lightblue;
+    margin-top: -5px;
+    text-align: center;
+}
+
+/* @media(max-width:412px){
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* #user{
+        width: 170px;
+    } */
