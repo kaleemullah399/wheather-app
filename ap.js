@@ -19,8 +19,8 @@ async function wheatherapp(city){
         
     }catch(err){
         temparature1.innerHTML="City name doesnot found"
-        cityname.style.display="none";
-        humididty.style.display="none"
+        cityname.innerHTML="Enter correct Cityname";
+        humididty.innerHTML="none"
     }
 }
 
